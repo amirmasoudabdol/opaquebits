@@ -41,11 +41,11 @@ kramdown:
   syntax_highlighter_opts:
     line_numbers: false
 
-# Jekyll SEO Tags Attributes
-# social:
-#   name: Amir Masoud Abdol
-#   links:
-#     - https://twitter.com/amirmasoudabdol
+Jekyll SEO Tags Attributes
+social:
+  name: Opaque Bits
+  links:
+    - https://twitter.com/opaquebits
 #     - https://github.com/amirmasoudabdol
 #     - https://keybase.io/amirmasoudabdol
 #     - https://www.linkedin.com/in/amirmasoudabdol
@@ -58,9 +58,9 @@ kramdown:
 # if you don't have any of social below, comment the line
 # show-socials: false
 # facebook: myfacebook
-# twitter: 
-#     username: amirmasoudabdol
-#     card: summary_large_image
+twitter: 
+    username: amirmasoudabdol
+    card: summary_large_image
 # google: mygoogle
 # instagram: myinstagram
 # pinterest: mypinterest
