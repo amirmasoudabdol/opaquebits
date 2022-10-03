@@ -41,7 +41,7 @@ kramdown:
   syntax_highlighter_opts:
     line_numbers: false
 
-Jekyll SEO Tags Attributes
+# Jekyll SEO Tags Attributes
 social:
   name: Opaque Bits
   links:
