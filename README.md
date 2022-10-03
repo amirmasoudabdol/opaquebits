@@ -1,0 +1,1 @@
+My personal website, build using [Jekyll](https://jekyllrb.com) and originally based on the [Indigo](https://github.com/sergiokopplin/indigo) theme by [Kopplin](https://github.com/sergiokopplin).

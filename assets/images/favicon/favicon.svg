@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="512px" height="512px" viewBox="0 0 512 512" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Group</title>
+    <defs>
+        <filter x="0.0%" y="0.0%" width="100.0%" height="100.0%" filterUnits="objectBoundingBox" id="filter-1">
+            <feGaussianBlur stdDeviation="0 0" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+        <filter x="0.0%" y="0.0%" width="100.0%" height="100.0%" filterUnits="objectBoundingBox" id="filter-2">
+            <feGaussianBlur stdDeviation="0 0" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group">
+            <rect id="Rectangle" fill="#E2E2E2" x="0" y="0" width="512" height="512"></rect>
+            <text id="O" fill-rule="nonzero" font-family="NittiGrotesk-Bold, Nitti Grotesk" font-size="200" font-weight="bold" fill="#000000">
+                <tspan x="43" y="219">O</tspan>
+            </text>
+            <text id="Q" fill-rule="nonzero" font-family="NittiGrotesk-Bold, Nitti Grotesk" font-size="200" font-weight="bold" fill="#000000">
+                <tspan x="42.7" y="367">Q</tspan>
+            </text>
+            <text id="U" fill-rule="nonzero" font-family="NittiGrotesk-Bold, Nitti Grotesk" font-size="200" font-weight="bold" fill="#000000">
+                <tspan x="194.8" y="367">U</tspan>
+            </text>
+            <text id="E" fill-rule="nonzero" font-family="NittiGrotesk-Bold, Nitti Grotesk" font-size="200" font-weight="bold" fill="#000000">
+                <tspan x="351.6" y="367">E</tspan>
+            </text>
+            <text id="P" fill-rule="nonzero" font-family="NittiGrotesk-Bold, Nitti Grotesk" font-size="200" font-weight="bold" fill="#000000">
+                <tspan x="200" y="219">P</tspan>
+            </text>
+            <text id="A" fill-rule="nonzero" font-family="NittiGrotesk-Bold, Nitti Grotesk" font-size="200" font-weight="bold" fill="#000000">
+                <tspan x="345" y="219">A</tspan>
+            </text>
+            <rect id="Rectangle" fill="#000000" x="34" y="336" width="444" height="148"></rect>
+            <text id="BITS" filter="url(#filter-2)" font-family="Nitti-Bold, Nitti" font-size="114" font-weight="bold" letter-spacing="47.8705" fill="#3A3A3A" fill-opacity="0.18">
+                <tspan x="46.459" y="443">BITS</tspan>
+            </text>
+        </g>
+    </g>
+</svg>

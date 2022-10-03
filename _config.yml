@@ -1,0 +1,135 @@
+# main text of home
+name: Opaque Bits
+
+# twitter summary info
+tagline: Opaque Bits
+description: Software Development, and Consultancy
+
+# if it's an external image, update below for true
+# better with square images
+external-image: false
+picture: /assets/images/opaquebits-logo.png
+logo: /assets/images/favicon/favicon.svg
+
+# If you want to include your resume, set to true
+# and specify source (external or local).
+resume: false
+resume-external: true
+resume-url: 
+
+# Your URL
+url: https://opaquebits.com
+
+permalink: /:title/
+
+# To enable google analytics, supply your token below
+# 
+# analytics-google: 'UA-MYANALYTICS'
+
+# include: [keybase.txt]
+
+breadcrumbs: false
+show-post-tags: true
+
+markdown: kramdown
+highligher: rouge
+
+kramdown:
+  input: GFM
+  hard_wrap: false
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    line_numbers: false
+
+# Jekyll SEO Tags Attributes
+# social:
+#   name: Amir Masoud Abdol
+#   links:
+#     - https://twitter.com/amirmasoudabdol
+#     - https://github.com/amirmasoudabdol
+#     - https://keybase.io/amirmasoudabdol
+#     - https://www.linkedin.com/in/amirmasoudabdol
+
+# if you don't want comments in your posts, leave categories empty
+# disqus:
+#   shortname: mydisqus # enter this from your disqus account
+#   categories: [] # only show disqus for posts that have these categories
+
+# if you don't have any of social below, comment the line
+# show-socials: false
+# facebook: myfacebook
+# twitter: 
+#     username: amirmasoudabdol
+#     card: summary_large_image
+# google: mygoogle
+# instagram: myinstagram
+# pinterest: mypinterest
+# linkedin: amirmasoudabdol
+# youtube: myyoutube
+# spotify: myspotify
+# github: amirmasoudabdol
+# lastfm: mylastfm
+# stackoverflow: 7044681/mystackoverflow
+# quora: userquora
+# reddit: amirmasoudabdol
+# medium: amirmasoudabdol
+# vimeo: myvimeo
+# lanyrd: mylanyrd
+# email: i@amirmasoudabdol.name
+
+# authors:
+#     amirmasoudabdol:
+#         name: Amir
+#         bio: JASP Core Developer. Previously, Comp. Psychology PostDoc Tilburg Uni., Comp. Biology PhD UvA
+#         external-image: false
+#         picture: assets/images/amirmasoudabdol_profile.jpg
+#         twitter: amirmasoudabdol
+    
+# do you want a larger site? change the option below
+# options: [normal, large] | default: normal
+# normal = 560px / large = 810px
+width: large
+
+# if you don't need pagination, comment the *paginate* configs below
+# paginate: 5
+# paginate_path: "blog/:num/"
+
+# if you don't need projects, comment the *projects* configs below
+projects: false
+
+# if you don't need "about" or "blog", comment them out below
+about: false
+blog: false
+now: false
+publications: false
+
+minimal-navigation: true
+show-logo-instead-of-home: false
+
+# do you want to show the "read time" of the posts?
+read-time: false
+
+dark-tint: dark_dimmed
+
+show-footer: true
+
+# related posts inside a post?
+related: false
+
+# Display links for next and previous posts for the specified categories
+post-advance-links: []
+
+# show author block at the end of a post ?
+show-author: false
+
+# do you want some animations?
+animation: true
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-octicons
+  - kramdown-syntax-coderay
+
+jekyll-mentions:
+    base_url: https://github.com

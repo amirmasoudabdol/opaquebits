@@ -1,0 +1,48 @@
+---
+layout: page
+title: Tags
+---
+<section>
+    <h1>Tags</h1>
+
+    {% assign tags_list = site.tags %}
+
+    {% if tags_list.first[0] == null %}
+        {% for tag in tags_list %}
+            <a href="#{{ tag | slugify }}">{{ tag }}</a>
+        {% endfor %}
+    {% else %}
+        {% for tag in tags_list %}
+            <span class="Label Label--large mr-1"><a href="#{{ tag[0] | slugify }}">{{ tag[0] }}</a></span>
+        {% endfor %}
+    {% endif %}
+
+    {% assign tags_list = nil %}
+</section>
+
+
+
+<section>
+    {% for tag in site.tags  %}
+    <h2 id="{{ tag[0] | slugify }}">#{{ tag[0] }}</h2>
+
+    <div class="d-flex flex-column">
+        {% assign pages_list = tag[1] %}
+        {% for post in pages_list reversed %}
+            {% if post.title != null %}
+                {% if group == null or group == post.group %}
+                    <div>
+                        <p class="lh-condensed text-small mb-n4 anim-fade-in">{{ post.date | date: "%b %d %Y" }}</p>
+                        <a href="{{ site.url }}{{ post.url }}">
+                            <h3>{{ post.title }}</h3>
+                        </a>
+                    </div>
+                {% endif %}
+            {% endif %}
+        {% endfor %}
+        {% assign pages_list = nil %}
+        {% assign group = nil %}
+    </div>
+
+    {% endfor %}
+</section>

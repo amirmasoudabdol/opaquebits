@@ -1,0 +1,35 @@
+---
+layout: page
+title: Projects
+---
+
+{% if site.breadcrumbs %}
+{% include breadcrumbs.html omit_collection=true omit_title=true %}
+{% endif %}
+
+<h1 class="pt-2 text-bold">Projects</h1>
+
+<div class="d-flex flex-column">
+{% for post in site.posts %}
+    {% if post.projects %}
+    <div class="d-flex flex-column flex-md-row flex-lg-row flex-xl-row pb-4 pt-4">
+
+        <div class="float-left pt-2 pb-2 pr-6">
+            {% if post.logo %}
+            <img class="float-left" style="max-width:200px;" src="{{ post.logo }}">
+            {% endif %}
+        </div>
+
+        <div class="float-left pt-2 pb-2 pr-2">
+            <p class="lh-condensed text-small mb-n1 anim-fade-in">{{ post.date | date: "%b %d %Y" }}</p>
+            <p class="h2">
+                <a href="{% if post.externalLink %}{{ post.externalLink }}{% else %}{{ site.url }}{{ post.url }}{% endif %}">
+                    {{ post.title }}
+                </a>
+            </p>
+            <p class="lh-condensed text-light">{{ post.description }}</p>
+        </div>
+    </div>
+    {% endif %}
+{% endfor %}
+</div>

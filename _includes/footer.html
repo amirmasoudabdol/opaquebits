@@ -1,0 +1,13 @@
+    {% if site.show-footer %}
+        <footer class="d-flex flex-justify-between pt-8">
+
+            <div style="float:left;">
+                <p class="text-small color-text-secondary">
+                    Copyright © {{ 'now' | date: "%Y" }}  <a class="Link--secondary" href="https://amirmasoudabdol.name">Opaque Bits</a>. All rights reserved.
+                </p>
+            </div>
+
+        </footer>
+    {% else %}    
+        <footer class="pt-6"></footer>
+    {% endif %}
