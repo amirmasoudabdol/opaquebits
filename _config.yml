@@ -88,7 +88,7 @@ kramdown:
 # do you want a larger site? change the option below
 # options: [normal, large] | default: normal
 # normal = 560px / large = 810px
-width: large
+width: normal
 
 # if you don't need pagination, comment the *paginate* configs below
 # paginate: 5
@@ -129,7 +129,6 @@ plugins:
   - jekyll-feed
   - jekyll-seo-tag
   - jekyll-octicons
-  - kramdown-syntax-coderay
 
 jekyll-mentions:
     base_url: https://github.com
